@@ -17,7 +17,8 @@ Before you begin, ensure you have met the following requirements:
 You have installed Node.js and npm.
 You have a MongoDB Atlas account or a local MongoDB instance.
 Installation
-
+1.clone repo.
+https://github.com/MuktaHD/AppointmentDoctorPatient.git
 
 2 . Install dependencies:
 
