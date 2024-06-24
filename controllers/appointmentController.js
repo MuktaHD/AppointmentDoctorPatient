@@ -1,4 +1,4 @@
-
+//add the appointment model
 
 const Appointment = require('../models/appointment');
 
