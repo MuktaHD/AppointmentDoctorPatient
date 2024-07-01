@@ -62,11 +62,7 @@
 
 // }
 
-// module.exports={
-//     addDoctor:addDoctor,
-//     loginDoctor:loginDoctor,
-//     getAllDoctors:getAllDoctors
-// }
+
 
 
 
