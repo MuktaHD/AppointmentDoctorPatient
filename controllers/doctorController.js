@@ -52,15 +52,7 @@
 // }
 
 
-//  async function getAllDoctors(req,res){
-//     try{
-//         const doctors=await Doctor.find()
-//         res.status(200).send(doctors)
-//     }catch(error){
-//         res.status(500).send(error)
-//     }
 
-// }
 
 
 
