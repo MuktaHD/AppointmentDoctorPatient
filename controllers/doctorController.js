@@ -1,16 +1,6 @@
 
 
 
-// async function addDoctor(req,res){
-//    try{
-//     const newDoctor=new Doctor(req.body)
-//     result= await newDoctor.save()
-//     res.status(200).send(result)
-//    } catch(error){
-//     res.status(500).send(error)
-//    }
-
-// }
 
 
 // async  function loginDoctor(req,res){
