@@ -6,7 +6,7 @@ const Appointment = require('../models/appointment');
 async function addAppointment(req, res) {
     console.log("req.body appointmentController", req.body);
 
-    const newAppointment = new Appointment(req.body);
+    const newAppointment = new Appointment(req.body);//give the whole body
 
     try {
         const result = await newAppointment.save();
