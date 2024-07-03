@@ -1,5 +1,4 @@
-// const mongoose=require('mongoose')
-// const Doctor=require('../models/doctorModel')
+
 
 
 // async function addDoctor(req,res){
