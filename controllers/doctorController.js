@@ -4,22 +4,6 @@
 
 
 
-
-//         const doctor=await Doctor.findOne({doctorEmail:doctorData.doctorEmail});
-
-//         if(!doctor){
-//             res.status(200).send({message:"user does not exist",success:false});
-//         }
-//         const isMatch= await Doctor.findOne({doctorPassword:doctorData.doctorPassword});
-//         if(!isMatch){
-//             result={message:"password Incorrect",success:false}
-//             res.status(200).send(result);
-//         }
-//         else{
-//             result={message:"login successful",success:true,id:doctor_id}
-//             res.status(404).send("Doctor not found")
-//         }
-//     }catch(error)
 //     {
 //         res.status(500).send(error)
 //     }
