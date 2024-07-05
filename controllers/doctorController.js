@@ -3,9 +3,7 @@
 
 
 
-//     console.log(req.body);
-//     try{
-//         const doctorData=req.body;
+
 
 //         const doctor=await Doctor.findOne({doctorEmail:doctorData.doctorEmail});
 
