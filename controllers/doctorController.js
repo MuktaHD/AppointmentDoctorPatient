@@ -3,19 +3,6 @@
 
 
 
-// async  function loginDoctor(req,res){
-//     // console.log("loginDoctor");
-//     // Doctor.find(function(err,doctors){
-//     //     if(err){
-//     //         console.log(err);
-//     //     }
-//     //     else{
-//     //         res.render('doctor',{doctors:doctors});
-//     //     }
-//     // });
-//     // res.redirect('/doctor');
-
-
 //     console.log(req.body);
 //     try{
 //         const doctorData=req.body;
