@@ -1,16 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
 // // {
 // //     "doctorEmail":"doctor1@gmail.com",
 // //     "doctorPassword":"doctor1"
