@@ -1,5 +1,4 @@
 
-
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
@@ -44,7 +43,6 @@ async function getPatient(req, res) {
 }
 
 // Function to get a patient by ID
-
 
 async function getPatientById(req, res) {
     try {
