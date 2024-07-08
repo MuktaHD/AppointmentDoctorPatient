@@ -126,6 +126,7 @@ async function updateAppointmentByDoctor(req, res) {
     }
 }
 
+
     // http://127.0.0.1:5001/api/updateAppointmentByDoctor/66713790c48091d6538e1600  This is appointId
     // {
     //     "status": "Rejected",
