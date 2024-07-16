@@ -67,7 +67,6 @@ async function getPatientById(req, res) {
     }
 }
 
-
 // Function for patient login
 
 async function loginPatient(req, res) {
