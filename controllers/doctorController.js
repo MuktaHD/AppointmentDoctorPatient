@@ -4,7 +4,6 @@
 // //     "doctorPassword":"doctor1"
 // // }
 
-
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const Doctor = require('../models/doctorModel');
