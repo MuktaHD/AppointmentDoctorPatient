@@ -21,7 +21,7 @@ const data=new Doctor({
     doctorAddress:req.body.doctorAddress,
 });
 
-   
+ 
     try {
         const doctorData=await data.save();
         console.log("addDoctor");
