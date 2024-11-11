@@ -20,7 +20,6 @@ const data=new Doctor({
     doctorPassword:req.body.doctorPassword,
     doctorAddress:req.body.doctorAddress,
 });
-
  
     try {
         const doctorData=await data.save();
