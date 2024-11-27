@@ -1,7 +1,5 @@
 //add the appointment model
 
-
-
 const Appointment = require('../models/appointment');
 
 // Function to add an appointment
