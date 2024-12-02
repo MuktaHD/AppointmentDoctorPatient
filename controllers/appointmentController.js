@@ -24,9 +24,6 @@ async function addAppointment(req, res) {
 //     "status": "Accepted"
 // }
 
-
-
-
 // Function to get an appointment by ID
 async function getAppointmentById(req, res) {
     console.log("req.params appointmentController", req.params);
