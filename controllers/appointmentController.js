@@ -108,12 +108,9 @@ async function updateAppointmentByDoctor(req, res) {
     try {
         const validStatuses = ['Pending', 'Accepted', 'Rejected'];
 
-      
         if (updateData.status && !validStatuses.includes(updateData.status)) {
             return res.status(400).send({ message: "Invalid status" });
         }
-
-
         const result = await Appointment.findByIdAndUpdate(appointmentId, updateData, { new: true });
         if (!result) {
             return res.status(404).send({ message: "Appointment not found" });
