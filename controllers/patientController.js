@@ -2,7 +2,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
-
 const Patient = require('../models/patientModel'); 
 
 // Function to add a new patient
