@@ -26,18 +26,6 @@ router.post('/loginDoctor',doctorController.loginDoctor);
 
 //Appointment routers
 
-// router.post('/addAppointment',appointmentController.addAppointment);
-// router.get('/getAppointmentById',appointmentController.getAppointmentById);
-// router.get('/ getAllAppointments,',appointmentController. getAllAppointments);
-// router.delete('/deleteAppointment',appointmentController.deleteAppointment);
-// router.get('/getAppointmentPatientId/:id',appointmentController.getAppointmentByPatientId);
-// router.get('/getAppointmentByDoctorId',appointmentController.getAppointmentByDoctorId);
-
-// router.put('/updateAppointmentByDoctor',appointmentController.updateAppointmentByDoctor);
-
-// router.post('/loginAppointment',appointmentController.loginAppointment);
-
-
 
 router.post('/appointments', appointmentController.addAppointment);
 router.delete('/deleteAppointment/:id', appointmentController.deleteAppointment);
