@@ -122,7 +122,6 @@ async function updateAppointmentByDoctor(req, res) {
     //     "appointmentDateTime": "2024-06-21T15:30:00Z"
     // }
 
-
 module.exports = {
     addAppointment,
     getAppointmentById,
