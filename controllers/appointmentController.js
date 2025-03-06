@@ -17,13 +17,6 @@ async function addAppointment(req, res) {
 }
 // http://127.0.0.1:5001/api/appointments
 
-// {
-//     "patientId": "666aa0c3079a126e2a6825b7",//This is patientid
-//     "doctorId": "666ad77d66d4f874dde3c9ee",//this is doctorid
-//     "appointmentDateTime": "2024-06-20T15:30:00Z",
-//     "status": "Accepted"
-// }
-
 // Function to get an appointment by ID
 async function getAppointmentById(req, res) {
     console.log("req.params appointmentController", req.params);
