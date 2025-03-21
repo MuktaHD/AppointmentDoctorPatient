@@ -31,7 +31,6 @@ const data=new Doctor({
     }
 }
 
-
 // Get all doctors
 async function getAllDoctors(req, res) {
     try {
