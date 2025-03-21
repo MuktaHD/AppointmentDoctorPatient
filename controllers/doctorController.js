@@ -79,8 +79,6 @@ async function loginDoctor(req, res) {
         res.status(500).json({ message: "Error during login", error: err.message });
     }
 }
-
-
 module.exports = {
     addDoctor,
     getAllDoctors,
